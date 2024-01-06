@@ -1,0 +1,53 @@
+.arrival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .arrival h1 {
+    color: #171717;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  
+  .arrival-item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    gap: 10px;
+  }
+  .arrival-item .grid-item:nth-child(5) .item .imgcon,
+  .arrival-item .grid-item:nth-child(7) .item .imgcon{
+    border-radius:50%
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    width:36px;
+    height:36px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    
+    font-weight: bold;
+    color: #fff;
+    background: #FEC104;
+
+  }
+  
+  .pagination button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

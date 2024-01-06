@@ -1,0 +1,20 @@
+.breadcrum_container{
+    display: flex;
+    justify-content: center;
+}
+.breadcrum{
+    display:flex;
+    font-size:12px;
+    text-transform:capitalize;
+    align-items: center;
+    
+    gap:10px;
+    width:1200px;
+    margin:30px 0;
+}
+.productName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+}
